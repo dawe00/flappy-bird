@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <hu.bme.aut.android.flappybird.rendering.GameView
+        android:id="@+id/gameView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true" />
+
+        <ImageButton
+            android:id="@+id/btnPause"
+            android:layout_width="@dimen/play_small_button_size"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/play_header_margin"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:src="@drawable/pause_button"
+            android:contentDescription="@string/pause_game" />
+
+        <ImageButton
+            android:id="@+id/btnResume"
+            android:layout_width="@dimen/play_small_button_size"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/play_header_margin"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:src="@drawable/resume_button"
+            android:contentDescription="@string/resume_game" />
+
+        <ImageButton
+            android:id="@+id/btnMenu"
+            android:layout_width="@dimen/play_menu_button_size"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/play_header_margin"
+            android:layout_marginStart="@dimen/play_header_menu_offset"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:background="@null"
+            android:src="@drawable/menu_button"
+            android:contentDescription="@string/exit_to_main_menu" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="@dimen/play_text_horizontal_margin"
+        android:layout_marginVertical="@dimen/play_vertical_margin"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/title"
+            android:contentDescription="@string/flappybird" />
+
+        <ImageView
+            android:id="@+id/gameover"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/gameover"
+            app:srcCompat="@drawable/gameover" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="@dimen/play_button_horizontal_margin"
+            android:gravity="center|bottom"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btnPlay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:background="@null"
+                android:src="@drawable/play_button"
+                android:contentDescription="@string/start_game" />
+
+            <ImageButton
+                android:id="@+id/btnLeaderboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:background="@null"
+                android:src="@drawable/leaderboard_button"
+                android:contentDescription="@string/show_leaderboard" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

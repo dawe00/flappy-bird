@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#dea710</color>
+    <color name="base_dirt">#ded895</color>
+    <color name="daylight_sky">#4ec0ca</color>
+    <color name="night_sky">#008793</color>
+    <color name="night_grass">#00a300</color>
+    <color name="button_red">#e86101</color>
+</resources>

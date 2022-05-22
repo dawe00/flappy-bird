@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/leaderboard_header_padding"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/gradient_sky_grass_night">
+
+    <TableRow
+        android:background="@color/yellow"
+        android:paddingHorizontal="@dimen/card_record_padding_horizontal"
+        android:paddingVertical="@dimen/card_record_padding_vertical" >
+        <TextView
+            android:id="@+id/RankHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/rank" />
+
+        <TextView
+            android:id="@+id/NicknameHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/nickname" />
+
+        <TextView
+            android:id="@+id/ScoreHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="@string/highscore" />
+    </TableRow>
+
+    <include
+        android:id="@+id/content_posts"
+        layout="@layout/content_leaderboard" />
+
+</TableLayout>

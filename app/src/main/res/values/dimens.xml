@@ -1,0 +1,24 @@
+<resources>
+    <dimen name="login_button_padding">12dip</dimen>
+    <dimen name="login_vertical_margin">25dip</dimen>
+    <dimen name="login_horizontal_margin">80dip</dimen>
+    <dimen name="login_input_margin">8dip</dimen>
+
+    <dimen name="play_vertical_margin">60dip</dimen>
+    <dimen name="play_text_horizontal_margin">80dip</dimen>
+    <dimen name="play_button_horizontal_margin">40dip</dimen>
+    <dimen name="play_menu_button_size">120dip</dimen>
+    <dimen name="play_small_button_size">40dip</dimen>
+    <dimen name="play_header_margin">10dip</dimen>
+    <dimen name="play_header_menu_offset">60dip</dimen>
+
+    <dimen name="leaderboard_header_padding">5dip</dimen>
+    <dimen name="nav_header_height">180dip</dimen>
+    <dimen name="nav_header_vertical_spacing">80dip</dimen>
+    <dimen name="nav_header_horizontal_spacing">10dip</dimen>
+
+    <dimen name="card_record_padding_horizontal">10dip</dimen>
+    <dimen name="card_record_padding_vertical">5dip</dimen>
+
+    <dimen name="popup_window_horizontal_margin">20dip</dimen>
+</resources>

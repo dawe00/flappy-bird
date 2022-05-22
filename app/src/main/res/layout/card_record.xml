@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/card_record_padding_horizontal"
+    android:paddingVertical="@dimen/card_record_padding_vertical" >
+
+    <TableRow
+        android:background="@drawable/button_border_white"
+        android:paddingHorizontal="@dimen/card_record_padding_horizontal"
+        android:paddingVertical="@dimen/card_record_padding_vertical" >
+        <TextView
+            android:id="@+id/rank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_weight="1" />
+    </TableRow>
+
+</TableLayout>
